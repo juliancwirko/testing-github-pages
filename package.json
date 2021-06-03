@@ -1,0 +1,13 @@
+{
+  "name": "testing-gh-pages",
+  "version": "0.0.1",
+  "description": "testing-gh-pages",
+  "main": "index.js",
+  "scripts": {
+    "build": "harold-scripts build",
+    "start": "harold-scripts start"
+  },
+  "devDependencies": {
+    "harold-scripts": "^0.3.3"
+  }
+}
