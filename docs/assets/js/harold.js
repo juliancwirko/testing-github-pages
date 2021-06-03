@@ -1,7 +1,7 @@
 const harold = (function () {
   let searchIndex;
   let postsJSON;
-  const postsJsonDataPath = '/jsonData/posts.json';
+  const postsJsonDataPath = '../../jsonData/posts.json';
 
   // Loads data for search index
   const fetchPostsJsonData = () => {

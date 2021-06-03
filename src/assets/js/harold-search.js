@@ -1,6 +1,6 @@
 (function () {
   // Trigger search overlay events and logic
-  const postsPath = '/posts/';
+  const postsPath = '../../posts/';
   const searchIcon = document.querySelector('[data-js-search]');
   const searchIconClose = document.querySelector('[data-js-search-close]');
   const searchOverlay = document.querySelector('[data-js-search-overlay]');
