@@ -1,6 +1,7 @@
 (function () {
   // Trigger search overlay events and logic
-  const postsPath = '../../posts/';
+  const rootDir = document.querySelector('[data-hrld-root]');
+  const postsPath = `${window.location.href.includes(rootDir) ? `/${rootDir}` : ''}/posts/`;
   const searchIcon = document.querySelector('[data-js-search]');
   const searchIconClose = document.querySelector('[data-js-search-close]');
   const searchOverlay = document.querySelector('[data-js-search-overlay]');

@@ -1,3 +1,4 @@
 {
-    outputDirName: 'docs'
+    outputDirName: 'docs',
+    hostDirName: 'testing-github-pages'
 }
